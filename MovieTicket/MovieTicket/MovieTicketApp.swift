@@ -11,7 +11,7 @@ import SwiftUI
 struct MovieTicketApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BottomNavBar()
         }
     }
 }

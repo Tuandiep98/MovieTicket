@@ -9,7 +9,24 @@ import SwiftUI
 
 struct BottomNavBar: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+                        NavigationView{
+                            HomeView()
+                        }
+                        .tabItem {
+                            VStack{
+                               Image(systemName: "house")
+                            }
+                        }
+                         NavigationView{
+                             HomeView()
+                         }
+                         .tabItem {
+                             VStack{
+                                Image(systemName: "square.stack")
+                             }
+                         }
+                     }
     }
 }
 

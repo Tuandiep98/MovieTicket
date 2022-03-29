@@ -15,6 +15,7 @@
 		F3D74E2827F376BE00EA4722 /* MovieTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E2727F376BE00EA4722 /* MovieTicketUITests.swift */; };
 		F3D74E3627F3771000EA4722 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E3527F3771000EA4722 /* HomeView.swift */; };
 		F3D74E3827F3772500EA4722 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E3727F3772500EA4722 /* BottomNavBar.swift */; };
+		F3D74E3B27F389C200EA4722 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E3A27F389C200EA4722 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		F3D74E2727F376BE00EA4722 /* MovieTicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTicketUITests.swift; sourceTree = "<group>"; };
 		F3D74E3527F3771000EA4722 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F3D74E3727F3772500EA4722 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+		F3D74E3A27F389C200EA4722 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		F3D74E0B27F376BD00EA4722 /* MovieTicket */ = {
 			isa = PBXGroup;
 			children = (
+				F3D74E3927F389A900EA4722 /* Core */,
 				F3D74E3427F376F400EA4722 /* UI */,
 				F3D74E0C27F376BD00EA4722 /* MovieTicketApp.swift */,
 				F3D74E0E27F376BD00EA4722 /* ContentView.swift */,
@@ -136,6 +139,14 @@
 				F3D74E3727F3772500EA4722 /* BottomNavBar.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		F3D74E3927F389A900EA4722 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F3D74E3A27F389C200EA4722 /* PlayerView.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 				F3D74E3827F3772500EA4722 /* BottomNavBar.swift in Sources */,
 				F3D74E3627F3771000EA4722 /* HomeView.swift in Sources */,
 				F3D74E0F27F376BD00EA4722 /* ContentView.swift in Sources */,
+				F3D74E3B27F389C200EA4722 /* PlayerView.swift in Sources */,
 				F3D74E0D27F376BD00EA4722 /* MovieTicketApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
