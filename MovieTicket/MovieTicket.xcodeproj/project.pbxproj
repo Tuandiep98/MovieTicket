@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3D74E0D27F376BD00EA4722 /* MovieTicketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E0C27F376BD00EA4722 /* MovieTicketApp.swift */; };
+		F3D74E0F27F376BD00EA4722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E0E27F376BD00EA4722 /* ContentView.swift */; };
+		F3D74E1127F376BE00EA4722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D74E1027F376BE00EA4722 /* Assets.xcassets */; };
+		F3D74E1427F376BE00EA4722 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D74E1327F376BE00EA4722 /* Preview Assets.xcassets */; };
+		F3D74E1E27F376BE00EA4722 /* MovieTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E1D27F376BE00EA4722 /* MovieTicketTests.swift */; };
+		F3D74E2827F376BE00EA4722 /* MovieTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E2727F376BE00EA4722 /* MovieTicketUITests.swift */; };
+		F3D74E3627F3771000EA4722 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E3527F3771000EA4722 /* HomeView.swift */; };
+		F3D74E3827F3772500EA4722 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E3727F3772500EA4722 /* BottomNavBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3D74E1A27F376BE00EA4722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D74E0127F376BD00EA4722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3D74E0827F376BD00EA4722;
+			remoteInfo = MovieTicket;
+		};
+		F3D74E2427F376BE00EA4722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D74E0127F376BD00EA4722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3D74E0827F376BD00EA4722;
+			remoteInfo = MovieTicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3D74E0927F376BD00EA4722 /* MovieTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D74E0C27F376BD00EA4722 /* MovieTicketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTicketApp.swift; sourceTree = "<group>"; };
+		F3D74E0E27F376BD00EA4722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3D74E1027F376BE00EA4722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3D74E1327F376BE00EA4722 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3D74E1927F376BE00EA4722 /* MovieTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D74E1D27F376BE00EA4722 /* MovieTicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTicketTests.swift; sourceTree = "<group>"; };
+		F3D74E2327F376BE00EA4722 /* MovieTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D74E2727F376BE00EA4722 /* MovieTicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTicketUITests.swift; sourceTree = "<group>"; };
+		F3D74E3527F3771000EA4722 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F3D74E3727F3772500EA4722 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3D74E0627F376BD00EA4722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D74E1627F376BE00EA4722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D74E2027F376BE00EA4722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3D74E0027F376BD00EA4722 = {
+			isa = PBXGroup;
+			children = (
+				F3D74E0B27F376BD00EA4722 /* MovieTicket */,
+				F3D74E1C27F376BE00EA4722 /* MovieTicketTests */,
+				F3D74E2627F376BE00EA4722 /* MovieTicketUITests */,
+				F3D74E0A27F376BD00EA4722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3D74E0A27F376BD00EA4722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3D74E0927F376BD00EA4722 /* MovieTicket.app */,
+				F3D74E1927F376BE00EA4722 /* MovieTicketTests.xctest */,
+				F3D74E2327F376BE00EA4722 /* MovieTicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3D74E0B27F376BD00EA4722 /* MovieTicket */ = {
+			isa = PBXGroup;
+			children = (
+				F3D74E3427F376F400EA4722 /* UI */,
+				F3D74E0C27F376BD00EA4722 /* MovieTicketApp.swift */,
+				F3D74E0E27F376BD00EA4722 /* ContentView.swift */,
+				F3D74E1027F376BE00EA4722 /* Assets.xcassets */,
+				F3D74E1227F376BE00EA4722 /* Preview Content */,
+			);
+			path = MovieTicket;
+			sourceTree = "<group>";
+		};
+		F3D74E1227F376BE00EA4722 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3D74E1327F376BE00EA4722 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3D74E1C27F376BE00EA4722 /* MovieTicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3D74E1D27F376BE00EA4722 /* MovieTicketTests.swift */,
+			);
+			path = MovieTicketTests;
+			sourceTree = "<group>";
+		};
+		F3D74E2627F376BE00EA4722 /* MovieTicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3D74E2727F376BE00EA4722 /* MovieTicketUITests.swift */,
+			);
+			path = MovieTicketUITests;
+			sourceTree = "<group>";
+		};
+		F3D74E3427F376F400EA4722 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F3D74E3527F3771000EA4722 /* HomeView.swift */,
+				F3D74E3727F3772500EA4722 /* BottomNavBar.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3D74E0827F376BD00EA4722 /* MovieTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D74E2B27F376BE00EA4722 /* Build configuration list for PBXNativeTarget "MovieTicket" */;
+			buildPhases = (
+				F3D74E0527F376BD00EA4722 /* Sources */,
+				F3D74E0627F376BD00EA4722 /* Frameworks */,
+				F3D74E0727F376BD00EA4722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieTicket;
+			productName = MovieTicket;
+			productReference = F3D74E0927F376BD00EA4722 /* MovieTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3D74E1827F376BE00EA4722 /* MovieTicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D74E2E27F376BE00EA4722 /* Build configuration list for PBXNativeTarget "MovieTicketTests" */;
+			buildPhases = (
+				F3D74E1527F376BE00EA4722 /* Sources */,
+				F3D74E1627F376BE00EA4722 /* Frameworks */,
+				F3D74E1727F376BE00EA4722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3D74E1B27F376BE00EA4722 /* PBXTargetDependency */,
+			);
+			name = MovieTicketTests;
+			productName = MovieTicketTests;
+			productReference = F3D74E1927F376BE00EA4722 /* MovieTicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3D74E2227F376BE00EA4722 /* MovieTicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D74E3127F376BE00EA4722 /* Build configuration list for PBXNativeTarget "MovieTicketUITests" */;
+			buildPhases = (
+				F3D74E1F27F376BE00EA4722 /* Sources */,
+				F3D74E2027F376BE00EA4722 /* Frameworks */,
+				F3D74E2127F376BE00EA4722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3D74E2527F376BE00EA4722 /* PBXTargetDependency */,
+			);
+			name = MovieTicketUITests;
+			productName = MovieTicketUITests;
+			productReference = F3D74E2327F376BE00EA4722 /* MovieTicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3D74E0127F376BD00EA4722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F3D74E0827F376BD00EA4722 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F3D74E1827F376BE00EA4722 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F3D74E0827F376BD00EA4722;
+					};
+					F3D74E2227F376BE00EA4722 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F3D74E0827F376BD00EA4722;
+					};
+				};
+			};
+			buildConfigurationList = F3D74E0427F376BD00EA4722 /* Build configuration list for PBXProject "MovieTicket" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3D74E0027F376BD00EA4722;
+			productRefGroup = F3D74E0A27F376BD00EA4722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3D74E0827F376BD00EA4722 /* MovieTicket */,
+				F3D74E1827F376BE00EA4722 /* MovieTicketTests */,
+				F3D74E2227F376BE00EA4722 /* MovieTicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3D74E0727F376BD00EA4722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D74E1427F376BE00EA4722 /* Preview Assets.xcassets in Resources */,
+				F3D74E1127F376BE00EA4722 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D74E1727F376BE00EA4722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D74E2127F376BE00EA4722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3D74E0527F376BD00EA4722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D74E3827F3772500EA4722 /* BottomNavBar.swift in Sources */,
+				F3D74E3627F3771000EA4722 /* HomeView.swift in Sources */,
+				F3D74E0F27F376BD00EA4722 /* ContentView.swift in Sources */,
+				F3D74E0D27F376BD00EA4722 /* MovieTicketApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D74E1527F376BE00EA4722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D74E1E27F376BE00EA4722 /* MovieTicketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D74E1F27F376BE00EA4722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D74E2827F376BE00EA4722 /* MovieTicketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3D74E1B27F376BE00EA4722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3D74E0827F376BD00EA4722 /* MovieTicket */;
+			targetProxy = F3D74E1A27F376BE00EA4722 /* PBXContainerItemProxy */;
+		};
+		F3D74E2527F376BE00EA4722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3D74E0827F376BD00EA4722 /* MovieTicket */;
+			targetProxy = F3D74E2427F376BE00EA4722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3D74E2927F376BE00EA4722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3D74E2A27F376BE00EA4722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3D74E2C27F376BE00EA4722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovieTicket/Preview Content\"";
+				DEVELOPMENT_TEAM = GBM46Q2LY4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuandiep98.MovieTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3D74E2D27F376BE00EA4722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovieTicket/Preview Content\"";
+				DEVELOPMENT_TEAM = GBM46Q2LY4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuandiep98.MovieTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3D74E2F27F376BE00EA4722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GBM46Q2LY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuandiep98.MovieTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieTicket.app/MovieTicket";
+			};
+			name = Debug;
+		};
+		F3D74E3027F376BE00EA4722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GBM46Q2LY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuandiep98.MovieTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieTicket.app/MovieTicket";
+			};
+			name = Release;
+		};
+		F3D74E3227F376BE00EA4722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GBM46Q2LY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuandiep98.MovieTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovieTicket;
+			};
+			name = Debug;
+		};
+		F3D74E3327F376BE00EA4722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GBM46Q2LY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuandiep98.MovieTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovieTicket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3D74E0427F376BD00EA4722 /* Build configuration list for PBXProject "MovieTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D74E2927F376BE00EA4722 /* Debug */,
+				F3D74E2A27F376BE00EA4722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D74E2B27F376BE00EA4722 /* Build configuration list for PBXNativeTarget "MovieTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D74E2C27F376BE00EA4722 /* Debug */,
+				F3D74E2D27F376BE00EA4722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D74E2E27F376BE00EA4722 /* Build configuration list for PBXNativeTarget "MovieTicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D74E2F27F376BE00EA4722 /* Debug */,
+				F3D74E3027F376BE00EA4722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D74E3127F376BE00EA4722 /* Build configuration list for PBXNativeTarget "MovieTicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D74E3227F376BE00EA4722 /* Debug */,
+				F3D74E3327F376BE00EA4722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3D74E0127F376BD00EA4722 /* Project object */;
+}
