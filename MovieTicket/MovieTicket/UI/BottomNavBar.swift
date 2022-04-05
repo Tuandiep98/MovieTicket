@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct BottomNavBar: View {
+    init() {
+        UITabBar.appearance().barTintColor = UIColor(Color.init(hex: "#130f40"))
+    }
     var body: some View {
         TabView {
                         NavigationView{
@@ -15,7 +18,8 @@ struct BottomNavBar: View {
                         }
                         .tabItem {
                             VStack{
-                               Image(systemName: "house")
+                               Image(systemName: "house.fill")
+                                Text("Movies")
                             }
                         }
                          NavigationView{
@@ -23,10 +27,20 @@ struct BottomNavBar: View {
                          }
                          .tabItem {
                              VStack{
-                                Image(systemName: "square.stack")
+                                Image(systemName: "wallet.pass")
+                                 Text("Wallet")
                              }
                          }
-                     }
+            NavigationView{
+                HomeView()
+            }
+            .tabItem {
+                VStack{
+                   Image(systemName: "lineweight")
+                    Text("My Ticket")
+                }
+            }
+        }
     }
 }
 

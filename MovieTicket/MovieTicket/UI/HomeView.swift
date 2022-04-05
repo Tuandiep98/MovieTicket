@@ -8,69 +8,171 @@
 import SwiftUI
 
 struct HomeView: View {
+    var movies: [String] = ["the_batman_thumb2", "matrix_thumb", "the_lost_city_thumb"]
     var body: some View {
-        ZStack(alignment: .bottom){
-            PlayerView().edgesIgnoringSafeArea(.all)
-            
-            LinearGradient(gradient: Gradient(colors: [.clear,.black, .black, .black]), startPoint: .top, endPoint: .bottom)
-                .overlay(
-                    VStack{
-                    Text("Alien 1979")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
-                    HStack(alignment: .center){
-                        Text("Science Fiction")
-                            .font(.subheadline)
-                            .fontWeight(.semibold)
-                            .foregroundColor(.white)
-                        Divider().background(Color.white)
-                        Color.yellow.overlay(Text("IMDh").bold())
-                            .cornerRadius(5)
-                            .frame(width: 60, height: 30)
-                        Text("9.2")
-                            .font(.subheadline)
-                            .fontWeight(.semibold)
-                            .foregroundColor(.white)
-                        Divider().background(Color.white)
-                        Text("1 Hour 45 Minutes")
-                            .font(.subheadline)
-                            .fontWeight(.semibold)
-                            .foregroundColor(.white)
-                    }.frame(height: 40)
-                    Text("A Commercial Spacecraft Called The Nostrama, Carrying Seven People On Its Way Back To Earth, Encounters A Message Of Help From A Planet In Its Path...")
-                        .font(.subheadline)
-                        .fontWeight(.semibold)
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(.white)
-                    LinearGradient(gradient: Gradient(colors: [Color.red, Color.purple]), startPoint: .leading, endPoint: .trailing)
+        ScrollView(.vertical){
+            VStack(alignment: .center){
+                HStack(alignment: .center){
+                    VStack(alignment: .leading){
+                        Text("Find Your Best")
+                            .bold()
+                            .font(.largeTitle)
+                            .foregroundColor(Color.white)
+                        Text("Movie")
+                            .bold()
+                            .font(.largeTitle)
+                            .foregroundColor(Color.white)
+                    }
+                    Spacer()
+                    Image("people")
+                        .resizable()
+                        .clipShape(Circle())
+                        .shadow(radius: 10)
+                        .overlay(Circle().stroke(Color.gray, lineWidth: 1))
+                        .frame(width: 60, height: 60)
+                }.padding()
+                HStack{
+                    Color.gray.frame(height: 60)
+                        .clipShape(RoundedRectangle(cornerRadius: 28))
+                        .opacity(0.12)
                         .overlay(
-                            HStack(alignment: .center){
-                            Color.black.overlay(
-                                HStack{
-                                Image(systemName: "ticket").foregroundColor(.white)
-                                Text("Booking").foregroundColor(.white).bold()
-                            })
-                                .frame(alignment: .leading)
-                                .cornerRadius(18)
-                                .padding(7)
+                        HStack{
+                            Image(systemName: "viewfinder")
+                            .resizable()
+                            .frame(width: 30, height: 30)
+                            .foregroundColor(Color.white)
+                            .padding()
+                            Text("Search movie")
+                            .font(.title2)
+                            .foregroundColor(Color.white)
                             Spacer()
-                            HStack(){
-                                Text("Swipe To The Right")
-                                    .font(.subheadline)
-                                    .bold()
-                                    .foregroundColor(.white)
-                                Image(systemName: "chevron.forward")
-                                    .foregroundColor(.white)
-                            }
-                        }
+                        }.padding()
                     )
-                    .frame(height: 80, alignment: .center)
-                    .cornerRadius(20)
-                    .padding()
+                    Color.blue
+                        .frame(width: 60, height: 60)
+                        .clipShape(RoundedRectangle(cornerRadius: 20))
+                        .overlay(
+                            Image(systemName: "scribble.variable")
+                                .resizable()
+                                .frame(width: 35, height: 35)
+                                .foregroundColor(Color.white)
+                        )
+                }.padding()
+                ScrollView(.horizontal){
+                    HStack(alignment: .center, spacing: 10){
+                        Color.blue
+                            .frame(width: 100, height: 50)
+                            .clipShape(RoundedRectangle(cornerRadius: 18))
+                            .overlay(
+                                Text("All")
+                                    .bold()
+                                    .font(.title3)
+                                    .foregroundColor(Color.white)
+                            )
+                        Color.init(hex: "#30336b")
+                            .frame(width: 100, height: 50)
+                            .clipShape(RoundedRectangle(cornerRadius: 18))
+                            .overlay(
+                                Text("Action")
+                                    .bold()
+                                    .font(.title3)
+                                    .foregroundColor(Color.white)
+                            )
+                        Color.init(hex: "#30336b")
+                            .frame(width: 100, height: 50)
+                            .clipShape(RoundedRectangle(cornerRadius: 18))
+                            .overlay(
+                                Text("Drama")
+                                    .bold()
+                                    .font(.title3)
+                                    .foregroundColor(Color.white)
+                            )
+                        Color.init(hex: "#30336b")
+                            .frame(width: 100, height: 50)
+                            .clipShape(RoundedRectangle(cornerRadius: 18))
+                            .overlay(
+                                Text("Horor")
+                                    .bold()
+                                    .font(.title3)
+                                    .foregroundColor(Color.white)
+                            )
+                    }.padding(.leading)
                 }
-            ).frame(height: 310)
-        }
+                HStack(alignment: .center){
+                    Text("Now Playing")
+                        .bold()
+                        .font(.largeTitle)
+                        .foregroundColor(Color.white)
+                    Spacer()
+                }.padding()
+                HStack(alignment: .center, spacing: 20) {
+                    ForEach(0..<movies.count) { i in Image(movies[i]).resizable()
+                                     .frame(width: 350, height: 200, alignment: .center)
+                                     .cornerRadius(10)
+                            }
+                }.modifier(ScrollingHStackModifier(items: movies.count, itemWidth: 325, itemSpacing: 20)).frame(width: 400)
+                HStack(alignment: .center){
+                    Text("Coming Soon")
+                        .bold()
+                        .font(.largeTitle)
+                        .foregroundColor(Color.white)
+                    Spacer()
+                }.padding()
+                HStack(alignment: .center, spacing: 10) {
+                    ForEach(0..<movies.count) { i in Image(movies[i]).resizable()
+                                     .frame(width: 150, height: 80, alignment: .center)
+                                     .cornerRadius(10)
+                            }
+                }.modifier(ScrollingHStackModifier(items: movies.count, itemWidth: 30, itemSpacing: 5)).frame(width: 400)
+                HStack(alignment: .center){
+                    Text("Promo")
+                        .bold()
+                        .font(.largeTitle)
+                        .foregroundColor(Color.white)
+                    Spacer()
+                    Text("View all").font(.headline).foregroundColor(Color.init(hex: "#3498db"))
+                }.padding(.horizontal)
+                Color.init(hex: "#3498db")
+                    .frame(height: 100)
+                    .clipShape(RoundedRectangle(cornerRadius: 25))
+                    .overlay(
+                        HStack(alignment: .center){
+                        VStack(alignment: .leading){
+                            Text("Student Holiday")
+                                .font(.title)
+                                .foregroundColor(Color.white)
+                            Text("Maximal only for two people")
+                                .font(.headline)
+                                .foregroundColor(Color.white)
+                        }
+                        Spacer()
+                        Text("OFF 50%")
+                            .font(.title)
+                            .foregroundColor(Color.white)
+                    }.padding()
+                    ).padding(.horizontal)
+                Color.init(hex: "#3498db")
+                    .frame(height: 100)
+                    .clipShape(RoundedRectangle(cornerRadius: 25))
+                    .overlay(
+                        HStack(alignment: .center){
+                        VStack(alignment: .leading){
+                            Text("Student Holiday")
+                                .font(.title)
+                                .foregroundColor(Color.white)
+                            Text("Maximal only for two people")
+                                .font(.headline)
+                                .foregroundColor(Color.white)
+                        }
+                        Spacer()
+                        Text("OFF 50%")
+                            .font(.title)
+                            .foregroundColor(Color.white)
+                    }.padding()
+                    ).padding(.horizontal)
+            }
+        }.background(Color.init(hex: "#130f40").ignoresSafeArea())
+        
     }
 }
 

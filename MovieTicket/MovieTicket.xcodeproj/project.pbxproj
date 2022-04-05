@@ -16,6 +16,8 @@
 		F3D74E3627F3771000EA4722 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E3527F3771000EA4722 /* HomeView.swift */; };
 		F3D74E3827F3772500EA4722 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E3727F3772500EA4722 /* BottomNavBar.swift */; };
 		F3D74E3B27F389C200EA4722 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D74E3A27F389C200EA4722 /* PlayerView.swift */; };
+		F3F868F927FCB4AE00C3FFF0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F868F827FCB4AE00C3FFF0 /* ColorExtension.swift */; };
+		F3F868FB27FCB88700C3FFF0 /* ScrollingHStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F868FA27FCB88700C3FFF0 /* ScrollingHStackModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		F3D74E3527F3771000EA4722 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F3D74E3727F3772500EA4722 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
 		F3D74E3A27F389C200EA4722 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		F3F868F827FCB4AE00C3FFF0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		F3F868FA27FCB88700C3FFF0 /* ScrollingHStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingHStackModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				F3D74E3A27F389C200EA4722 /* PlayerView.swift */,
+				F3F868F827FCB4AE00C3FFF0 /* ColorExtension.swift */,
+				F3F868FA27FCB88700C3FFF0 /* ScrollingHStackModifier.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -281,7 +287,9 @@
 			files = (
 				F3D74E3827F3772500EA4722 /* BottomNavBar.swift in Sources */,
 				F3D74E3627F3771000EA4722 /* HomeView.swift in Sources */,
+				F3F868FB27FCB88700C3FFF0 /* ScrollingHStackModifier.swift in Sources */,
 				F3D74E0F27F376BD00EA4722 /* ContentView.swift in Sources */,
+				F3F868F927FCB4AE00C3FFF0 /* ColorExtension.swift in Sources */,
 				F3D74E3B27F389C200EA4722 /* PlayerView.swift in Sources */,
 				F3D74E0D27F376BD00EA4722 /* MovieTicketApp.swift in Sources */,
 			);
